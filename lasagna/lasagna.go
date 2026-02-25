@@ -20,7 +20,3 @@ func ElapsedTime(numberOfLayers, actualMinutesInOven int) int {
 	//panic("ElapsedTime not implemented")
 	return PreparationTime(numberOfLayers) + actualMinutesInOven
 }
-
-func main() {
-	ElapsedTime(2, 20)
-}
